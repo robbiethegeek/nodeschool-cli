@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nodeschool-dev",
+  "private_key_id": "494b878affbe4d224fe030eb88395b17fa05c03f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCummnVtPAVjx6c\n8V2C90qXvWu6LQJ1WVaKECn+26HXlCTBRTq0OKbyzUPiGKJK3YSSvErm/zwbZq74\nRW14x9yaRUyuNhQyLCxGv3637C3AQyW2DmJc7pfKF5wO5boMsioPhfFWS2w24jE8\noBsJUSYV5aFQD/Ks5fYGloiqqe9YxkNRV3zc6g4W/1WJYjiUGVnJ8ba6C0UtW+M3\ncWZP6k+HYRNpkxVuurCAOkq659zj6ZeAKUHu7sRixxI1k3SoJ/7WXLgfOociBNZt\nxhsQ5Rdn7uKPe7WR15MjsG3J9Ey6pmVWgIAGpvzv4WYxDrZ7wf0kjTscv7dl8yEX\n6xnh0MALAgMBAAECggEBAKYugZzNYdSjK1fkwkPsaiqSNv4z6KsYJK2zRMU09Yzh\nizoIUh9F7GAbzghbudvXil6+p+vD8cmCqfXS3qaeUvDiFGGbRw2ZzWpoyIr1V3Yu\ncq4ccrJQxFessPPc4n9C85VivpiLoKt8DbDOEe2ENuOQc0BobWjyVn9etyT4KL4s\nIoDlxjgC+Ph7sRNb0CUcvVBLMsVbKntE3RkL/ZSk3EAPutmECTbyTRHH2XRKpEPU\nHVtn0dPPSJmBmNOiOfoTsjSHHtHLbm8UiF87zhjHxqYjipF6W+UHsc1gcUC9THvi\ngUJH40bFpn0xPmH16gqqcLIUik1IKt3DaF0g78eMwEECgYEA4eMCCrnzcg8mNabh\nlnhGDsVUe0QMprmuyi/58nTfPyaZ62jCVt2zbwm6OUrUJ0O203xsyNrL537bVpQc\niuy6yUMZe1C/D95RubLTaUknFcw8zQPE0bQTXsgbeNZU3K0n+9ttdnvvIw+kVH4D\nBSgQDk+kdH4P1XZwzirJknSUhr0CgYEAxeE3PjQhUkXzBgQi6b8u2s54YYMi5nYb\nxts8ZDEOV/eICf0Ttnox47UgLpwGFNkhISGgP3EMpkkagrWcjLK8QQAQ9My7nvMM\nnhw3KZo2HLymsCtUNFfCeBrCkVS/yizBTguiTFzhGcpXBoXh6Zm+GakOOHHkewuF\n2EJtFzveUmcCgYBOxWEC6JGSpuHGN+nXFR4pLHsneTWINpxTeaOJ/2OSnB100FVl\nAW7/O78rF4MgJibtXSh6aoJMuho2+PNzJtaENNf//sqB+B87yLacspvkqBJT1Aqg\nrlFK7jFWVDfHtMKKu5xSgymDaoL9y+u1sqDWvMM2tHdFE0aHPriIUAszaQKBgHbN\nf7BN9g+CRaVACIIUMZpWyfmplOOO16BtcfWpajYwPDHbCuHMvXU8AqVZMWGE9xoA\nKUjNo82WKF9/kAz9Jn9T/dorrR2CSPoIcKn+lyxrqxwr93MxmWUok9ZTbo6AjlJA\nM+HrBY7JZ7RX30mz72lSkWIcJxQk1+f+AacoX5NTAoGAGcovVyrvsYSlGHNEJyOs\nd3IqOEm12KqdllZ5hY3SELjGF0JXnzockpNyVBfIN35dT4YSSXtffOA7yB+iJA5k\nuKhYHVPG7O46FlgU+D+rXQJfO/MqoPzPyxmQ3X8FcX5s4PBPOmBrpry8oBQ9VG+h\n3quzLFjSetjQw/qRUhYGwk8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-riwcg@nodeschool-dev.iam.gserviceaccount.com",
+  "client_id": "111124967869593266587",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-riwcg%40nodeschool-dev.iam.gserviceaccount.com"
+}

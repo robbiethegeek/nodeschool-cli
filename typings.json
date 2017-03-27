@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "commander": "registry:dt/commander#2.3.0+20161118092844",
+    "lodash": "registry:dt/lodash#4.14.0+20170106153921"
+  }
+}

@@ -16,11 +16,6 @@ The cli tool for the NodeSchool Application, that will allow for users to be cre
 `
 	nodeschool verify
 ` 
-### User Update
-
-`
-	nodeschool update
-`
 
 ### User Checkin
 
@@ -31,5 +26,5 @@ The cli tool for the NodeSchool Application, that will allow for users to be cre
 ### User View
 
 `
-	nodeschool report card
+	nodeschool report-card
 `

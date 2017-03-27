@@ -1,0 +1,28 @@
+{
+  "name": "nodeschool-cli",
+  "version": "1.0.0",
+  "description": "The cli tool for the NodeSchool Application, that will allow for users to be created, verify, check in their progress and update their user info.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "node ./spec/commands.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiethegeek/nodeschool-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbiethegeek/nodeschool-cli/issues"
+  },
+  "homepage": "https://github.com/robbiethegeek/nodeschool-cli#readme",
+  "bin": {
+    "nodeschool": "./src/app.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "firebase-admin": "^4.1.3",
+    "lodash": "^4.17.4",
+    "npm-whoami": "^1.1.4"
+  }
+}
