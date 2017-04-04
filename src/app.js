@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 const program = require('commander');
-const whoami = require('npm-whoami');
 const version = require('../package.json').version;
 const commands = require('./commands')
-
+const user = require('./user');
 program
   .version(version)
   .option('enroll', 'enroll in nodeschool')
@@ -11,8 +10,12 @@ program
   .option('report-card', 'Get your report card for nodeschool')
   .option('checkin', 'Check in your current state into nodeschool')
   .parse(process.argv);
-
-if (program.enroll) {
+console.log(user);
+if (!user.npm.verified) {
+  console.log("Please create a user account on npm or login");
+  console.log("run: npm login and rerun nodeschool.")
+} else {
+  if (program.enroll) {
   commands.enroll();
 }
 
@@ -27,12 +30,7 @@ if (program.reportCard) {
 if (program.checkin) {
   commands.checkin();
 }
-
-let userName = '';
-try {
-  userName = whoami.sync();
-} catch (error) {
-  console.log("Please create a user account on npm or login");
-  console.log("run: npm login and rerun nodeschool.")
 }
-console.log(userName);
+
+
+

@@ -28,13 +28,46 @@ module.exports = {
       "how-to-markdown": 12,
       "functional-javascript": 18,
       "levelmeup": 12,
-      "expressworks": 9}
-      // "makemehapi": "", "promise-it-wont-hurt": "", "async-you": "", "nodebot-workshop": "", "goingnative": "", "planetproto": "",
-      // "webgl-workshop": "", "esnext-generation": "", "test-anything": "", "tower-of-babel": "", "learnyoumongo": "", "regex-adventure": "",
-      // "learn-sass": "", "pattern-lab-workshop": "", "learnyoubash": "", "currying-workshopper": "", "bacon-love": "", "innersourceadventure": "",
-      // "shader-school": "", "bytewiser": "", "bug-clinic": "", "browserify-adventure": "", "introtowebgl": "", "count-to-6": "", "kick-off-koa": "",
-      // "lololodash": "", "learnyoucouchdb": "", "learnuv": "", "learn-generators": "", "learnyoureact": "", "perfschool": "", "web-audio-school": "",
-      // "torrential": "", "thinking-in-react": "", "node-debug-school": "", "seneca-in-practice": "", "less-is-more": "", "js-best-practices"];
+      "expressworks": 9,
+      "makemehapi": 13,
+      "promise-it-wont-hurt": 13,
+      "async-you": 7,
+      "nodebot-workshop": 10,
+      "goingnative": 13,
+      "planetproto": 10,
+      "webgl-workshop": 27,
+      "esnext-generation": 5,
+      "test-anything": 5,
+      "tower-of-babel": 13,
+      "learnyoumongo": 9,
+      "regex-adventure": 14,
+      "learn-sass": 13,
+      "pattern-lab-workshop": 9,
+      "learnyoubash": 11,
+      "currying-workshopper": 6,
+      "bacon-love": 16,
+      "innersourceadventure": 4,
+      "shader-school": 31,
+      "bytewiser": 7,
+      "bug-clinic": 13,
+      "browserify-adventure": 10,
+      "introtowebgl": 7,
+      "count-to-6": 10,
+      "kick-off-koa": 11,
+      "lololodash": 9,
+      "learnyoucouchdb": 4,
+      "learnuv": 9,
+      "learn-generators": 6,
+      "learnyoureact": 11,
+      "perfschool": 10,
+      "web-audio-school": 3,
+      "torrential": 6,
+      "thinking-in-react": 7,
+      "node-debug-school": 9,
+      "seneca-in-practice": 12,
+      "less-is-more": 10, 
+      "js-best-practices": 8
+    };
 
     const configDir = path.join(homedir, '.config');
     const files = fs.readdirSync(configDir);
@@ -44,7 +77,9 @@ module.exports = {
         if (fs.existsSync(filePath)) {
           const fileContents = fs.readFileSync(filePath);
           if (workshops[file] === JSON.parse(fileContents.toString()).length) {
-            checkInData.push(file);
+            checkInData.push({ name: file, completed: true, percent: 100});
+          } else {
+            checkInData.push({ name: file, completed: false, percent: ((JSON.parse(fileContents.toString()).length / workshops[file]) * 100.00).toFixed(2)});
           }
         }
       }
