@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nodeschool-dev",
+  "private_key_id": "d0bd6a5aa27a2160020b035578a58f9e5da6cabd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCtc+IWnIT4/o/2\nK8t6aft3Iap0fD5oqjVcz4udDLH3+NOL4vkb915bYERllyclvrTEhBM8oHQOkhiR\nuYUh6Duh3v1uSgeT93JlDOpsI0xtIEnhpusiAEpxS4X9zztk8xe9BBZks23ioYx3\n79w+GDMyrlvvOVjc06qf2Q7HdNJpxLkPB7kGZOQv/ikZAdc1pqcXnMTEcXyztcIG\nnRElLsukuVnavcC+P4WUY2R1mcWPSbDLulg8TfZa8qJWQuMKbzL2NLxro4MKpOg/\nb5qItnQ8BYa5ST1LgPLM0YR19wnNzXCh41/Kn9+4Md3JMnBNGCFC/PQbDUGLQ27d\n4u/d8lKrAgMBAAECggEAe7z84EaesgbgaqyJh3XN+AnjUSBFYWNzmBdTsSEaYR14\nxQWR0vqgrK07fgHb4phu2vahxpFs2ewtbOAdcrf6upqazzAuwcc4K5CQN77iycLM\nEheDDImKkdJf71YEOBsXpzcgRoyeapv22qUZyI55D8HFQh72Hus9gLVXTsEvTlXk\nmb5WkgZQ3z13IU2RZD3n8UzH7B8gG52dQycAvkp46RbiiAIpagHMf0en622bVxCs\nLGSiL93odKOoiZTgDrQQxsbxFb0xU2lOls7cCvzp9CEOa+WohnGEBqf8vIL4vwqd\nEDg3Z0mlplLcpxQchoGFxJFwHNSHrZFIDoYO6QpLsQKBgQDhhrftLWlgGbJkK3zQ\neeIeFTkgEmwekhAvSt5EU2tewhAho8Pm29gOYUBV6GiUmIlyzsN/kRl/k6JHgm0z\nglPR072kufiIr7fYKCQKetMpUlbPbTBokP58VTL4jmMcptbtF+wTFyvPoZAj/gpQ\nrw21pccp7hbNTouwZjtSOlxtowKBgQDE490ixT/FCnjrPHwUs+XNyBNlvj4BggNa\nq47bPvY3O4fnGZtL4TFhaXcAfshzOGGYaV2N4AFnAujWgNEuZdWn++ySbO5tBB49\nNCYngn8DWigKfliTTkM3meQULDirO0fm/5R9QXZeUBFcsrFv2QMyUpOnake/TSqo\nHJWOD3hHWQKBgEJd+MZNNNNY/IxJ1+Mp2wbrS/JKOZMNfMHOEHae7dvm1ARyQvYu\n//fLWrltOUlxUhF9Ez75Hj3S3lCY6zXbRntbClXtfFwNCdcMiP6kgnuIhY9pHHPJ\nJ3rDP8qxbC1EU79V6Nz9VqE1dEuDONnhifFIpcGLFR653JW+n/pkvkptAoGAMwb/\nM9i9KzsIlabKXa82GrwE0vSYK1nftqsJziamNzBVi35mcib93kowDk/NcZcmLBL6\nrR9mHaVyZM1j6Ut5MR0oddaHgHd1wtT2In0+n8bI49dU63B4GTvoEZZYZYBqpSKO\nAFxr6guERGsHc35hxrQCEnyH9btxF7q4w+WcfZkCgYEAiSmAJENukf7UzdhnOpIP\nn18Q26x/oP0mSu3jnIMXrCjWzxS7Ddw+hln8qMzlZqEJ+umUsmDxZofBxUfkCul2\nJ1wiHaKKrDAna0Fd0h0curOfJfmQX3lovwHJfMTnW8OV/6oJv2BJxIYtyN+R/wmp\nZ9OGuDo/OqRB9PEnXwK1oGU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "nodeschool-dev@nodeschool-dev.iam.gserviceaccount.com",
+  "client_id": "102889509476898620563",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nodeschool-dev%40nodeschool-dev.iam.gserviceaccount.com"
+}

@@ -5,8 +5,6 @@ try {
   npmUser = whoami.sync();
 } catch (error) {
   npmVerified = false;
-  console.log("Please create a user account on npm or login");
-  console.log("run: npm login and rerun nodeschool.")
 }
 
 if (npmVerified) {

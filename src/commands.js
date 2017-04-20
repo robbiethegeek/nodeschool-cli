@@ -15,8 +15,9 @@ module.exports = {
   },
   checkin: () => {
     const status = {};
-    let checkInData = [];
+    let checkInData = {};
     console.log("checkin");
+
     const workshops = {
       "javascripting": 19,
       "git-it": 11,
@@ -68,7 +69,7 @@ module.exports = {
       "less-is-more": 10, 
       "js-best-practices": 8
     };
-
+    const timestamp = Date.now();
     const configDir = path.join(homedir, '.config');
     const files = fs.readdirSync(configDir);
     for (file of files) {
@@ -76,11 +77,11 @@ module.exports = {
         const filePath = path.join(configDir, file, 'completed.json');
         if (fs.existsSync(filePath)) {
           const fileContents = fs.readFileSync(filePath);
-          if (workshops[file] === JSON.parse(fileContents.toString()).length) {
-            checkInData.push({ name: file, completed: true, percent: 100});
-          } else {
-            checkInData.push({ name: file, completed: false, percent: ((JSON.parse(fileContents.toString()).length / workshops[file]) * 100.00).toFixed(2)});
-          }
+          const currentCompleted = JSON.parse(fileContents.toString()).length;
+          const completeCount = workshops[file];
+          if (currentCompleted === completeCount) {
+            checkInData[file] = { completed: true, completeCount: completeCount, time: timestamp};
+          } 
         }
       }
       
