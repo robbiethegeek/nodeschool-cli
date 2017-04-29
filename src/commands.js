@@ -1,6 +1,3 @@
-// const firebase = require('firebase/app');
-// require('firebase/database');
-
 const fs = require('fs');
 const path = require('path');
 const homedir = process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
